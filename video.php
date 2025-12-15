@@ -1,31 +1,3 @@
-<!-- <video id="video" controls width="640" height="360"></video>
-
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-<script>
-  const video = document.getElementById('video');
-  // const videoSrc = 'https://d21yebqptmsa70.cloudfront.net/rbse_hindi_medium/10/science/chemical_reactions_and_equations/chapter_videos/part_1/CH01_Part_1_Final_With_Logo.m3u8';
-  // const videoSrc = 'https://d21yebqptmsa70.cloudfront.net/rbse_hindi_medium/10/science/chemical_reactions_and_equations/how_to_write_answers/essay_type_questions/essay_type_questions.m3u8';
-  // const videoSrc = 'https://d21yebqptmsa70.cloudfront.net/cbse_english_medium/10/maths/real_numbers/how_to_write_answers/source_basesd_question/Source-Based-Case-Based.m3u8';
-  const videoSrc = 'https://d21yebqptmsa70.cloudfront.net/rbse_hindi_medium/10/sst/India_and_the_Contemporary_World2/chapter04/chapter_videos/part_1/Chapter_04_Part01.m3u8';
-
-  if (Hls.isSupported()) {
-    const hls = new Hls();
-    hls.loadSource(videoSrc);
-    hls.attachMedia(video);
-    hls.on(Hls.Events.MANIFEST_PARSED, () => {
-      video.play();
-    });
-  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-    // Native support (Safari)
-    video.src = videoSrc;
-    video.addEventListener('loadedmetadata', () => {
-      video.play();
-    });
-  } else {
-    alert("HLS is not supported on this browser.");
-  }
-</script> -->
-
 
 <!DOCTYPE html>
 <html lang="en">
